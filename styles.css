@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+div {
+  height: 25vh;
+}
+
+input {
+  color: #fff;
+  background-color: #313331;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-size: 5rem;
+  outline: none;
+  font-family: 'IBM Plex Serif', serif;
+  border: 0;
+}
+
+#decimeterdiv {
+  border-bottom: 2px solid whitesmoke;
+  border-top: 2px solid whitesmoke;
+}
+
+#centimeterdiv {
+  border-bottom: 2px solid whitesmoke;
+}
+
+::-webkit-input-placeholder {
+  color: #595b5b;
+}
+
+::-moz-placeholder {
+  color: #595b5b;
+}
+
+::-ms-input-placeholder {
+  color: #595b5b;
+}
